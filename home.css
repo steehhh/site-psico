@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    gap: 40px;
+    top: 0;
+    width: 100%;
+    background: none;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+header nav {
+    font-family: 'Anton', sans-serif;
+    align-items: center;
+    display: flex;
+    gap: 20px; 
+}
+
+header div {  
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 3px 3px #a6caff;
+    margin-left: 160px;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #4d6b81;
+}
+
+header nav a {
+    margin-right: 110px;
+    text-decoration: none;
+    color: #033457;
+    font-size: 1.7em;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+header nav a.btn-agende {
+    padding: 23px 33px;
+    background-color: rgba(28, 70, 150, 0.8);
+    border: none;
+    border-radius: 60px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header nav a.btn-agende:hover {
+    background-color: rgba(31, 112, 204, 0.8);
+}
+
+.hero {
+    height: 100vh;
+    background: url('./imag/4a63c937d5606964bc9ffe94b705c67d.jpg') no-repeat center center;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.hero h1 {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 3px 3px #b3abab;
+    font-size: 3.7em;
+    margin-bottom: 20px;
+    color: #ffffffe3;
+}
+
+.hero p {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 3px 3px #909ab9;
+    font-size: 1.7em;
+    margin-bottom: 30px;
+    color: #003255;
+}
+
+.hero button {
+    font-family: 'Anton', sans-serif;
+    color: #ffffff;
+    padding: 30px 60px;
+    background-color: #0e3c5e;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: rgba(31, 112, 204, 0.8);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section1 {
+    background-color: #4d6b81; 
+    height: 80vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section1 h2 {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 5em;
+    text-align: right;
+    margin-right: 210px;
+}
+
+.section1 p {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    font-size: 1.7em;
+    color: #f8f8f8;
+    line-height: 1.8;
+    text-align: left;
+   margin-left: 200px;
+}
+
+.section1 .btn-saiba {
+    font-family: 'Anton', sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    background-color: transparent; 
+    color: #e6e6fa;
+    font-size: 1em;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 0px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.section1 .btn-saiba:hover {
+    background-color: #3677a5; 
+    color: #ffffff;
+}
+
+
+.section2 {
+    background-color: #72868b;
+    height: 100vh;
+    padding: 50px;
+}
+
+.section3 {
+    background-color: #72868b;
+    height: 100vh;
+    padding: 50px;
+}
+
+footer {
+    background-color: #72868b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
